@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: code-with-quarkus-dev-files-mvn
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/antcosta-tenant/code-with-quarkus-dev-files-mvn/code-with-quarkus-dev-files-mvn@sha256:72928676438d843a0c7b4596a114aaaec9ca23cadf3115c5c62b2df26b232ffa
         name: my-java-quarkus
         ports:
         - containerPort: 8081
