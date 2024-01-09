@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: code-with-quarkus-dev-files-mvn
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/antcosta-tenant/code-with-quarkus-dev-files-mvn/code-with-quarkus-dev-files-mvn@sha256:72928676438d843a0c7b4596a114aaaec9ca23cadf3115c5c62b2df26b232ffa
+        name: my-java-quarkus
+        resources: {}
+status: {}
