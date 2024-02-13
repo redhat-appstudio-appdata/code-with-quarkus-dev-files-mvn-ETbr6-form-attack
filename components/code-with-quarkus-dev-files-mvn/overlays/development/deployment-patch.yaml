@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: code-with-quarkus-dev-files-mvn
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
